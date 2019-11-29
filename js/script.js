@@ -1,3 +1,15 @@
+//hey this is invisible single line comment.
+/* multiple line comments */
+var doCoolStuff =function () {
+    var currentClassName = document.getElementById('cool').className;
+        //changing class name
+        if (currentClassName == 'cool') {
+            document.getElementById('cool').className = 'cool red';
+        } else {
+            document.getElementById('cool').className = 'cool';
+        }
+}
+
 var imStudying = function (name) {
     alert("I'm studying: " +name);
 }
