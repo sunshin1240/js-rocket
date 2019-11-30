@@ -11,7 +11,7 @@ h2 {
     font-family: 'Faster One', cursive;
     color: mediumslateblue;
     font-size: 280%;
-    margin-top: 45%;
+    margin-top: 40%;
 }
 
 .left {
@@ -145,12 +145,7 @@ body.body-state3 .state3 { display: block; }
 body.body-state4 .state4 { display: block; }
 body.body-state5 .state5 { display: block; }
 
-a {
-
-
-}
-
-a.button {
-
-
+.right,
+.left {
+max-height: 700px;
 }
